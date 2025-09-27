@@ -1,1 +1,1 @@
-Learning LangChain for Generative AI
+Learning Langchain for Generative AI
