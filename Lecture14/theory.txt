@@ -1,0 +1,9 @@
+
+"""A vector store is a system designed to store and retrieve data represented as numerical vectors"""
+# Every vector database is vector store with extra database features
+
+#RAG 4 main componets are:-
+1. document loader
+2. text splitter
+3. vector store
+4. Retrievers
