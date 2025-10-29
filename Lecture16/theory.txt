@@ -1,0 +1,24 @@
+RAG -> Information retrival + text generation
+4 steps:-
+1. Indexing
+2. Retrieval
+3. Augmentaion
+4. Generation
+
+Indexing: 
+1 Document Ingestion = You load your source knowledge into memory
+2 Text Chunking = Break large documents into small , semantically meaningful chunks
+3 Embedding = Convert each chunk to dense vector that capture its meaning
+4 storage in vector store = store the vectors along with the original chunk text + metadata in vector database
+
+Retrieval:
+Retrieval is the real-time process of finding the most relevant pieces of information
+from a pre-built index (created during indexing) based on the user's question 
+
+Augmentaion:
+Augmentaion refers to the step where the retrieved documents(chunk of relevant context) are 
+combined with the user's query to form a new , enriched prompt for the LLM
+
+Generation:
+Generation  is the final step where a Large Language Model (llm) uses the 
+user's query and the retrieved and augmented context to generate a response 
