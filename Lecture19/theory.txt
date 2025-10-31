@@ -1,0 +1,15 @@
+Total Binding:
+Total binding is the step where you register tools with a Language model(llm) so that 
+1. The LLM knows what tools are available
+2. It knows what each tools does(via description)
+3. It knows what input format to use(via schema)
+
+Tool Calling:
+Tool Calling is the process where the LLM decides, during a converstion or task , that It
+needs to use a specific tool- and generates  a structured output with 
+1. the name of the pool
+2. and the argument to call it with
+
+Tool Execution:
+Tool Execution is the step where the actual python funtion is run using the input argument
+that the LLM suggested during tool calling
