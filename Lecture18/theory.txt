@@ -1,0 +1,3 @@
+Tools:
+A tool is just a python function (or API) that is packaged in a way the LLM can understand
+and call when needed

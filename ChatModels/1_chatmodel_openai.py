@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-model =  ChatOpenAI(model='gpt-4o-mini', temperature=0.8, max_completion_tokens=10)
+model =  ChatOpenAI(model='gpt-4o-mini')
 
 result = model.invoke("Suggest me five indian names")
 
